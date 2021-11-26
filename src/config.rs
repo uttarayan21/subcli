@@ -6,6 +6,12 @@ pub struct Config {
     pub username: String,
     pub password: String,
     pub server: String,
+    #[serde(default = "default_bitrate")]
+    pub bitrate: usize,
+}
+
+fn default_bitrate() -> usize {
+    192_usize
 }
 
 impl Config {

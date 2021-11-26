@@ -1390,6 +1390,7 @@ dependencies = [
 [[package]]
 name = "sunk"
 version = "0.1.2"
+source = "git+https://github.com/uttarayan21/sunk#17d4952c946f82747f6750d44e2ee7a0dd52f5b7"
 dependencies = [
  "dirs",
  "log",
